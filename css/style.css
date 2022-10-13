@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+
+body {
+	font-family:'Lato',sans-serif;
+	line-height: 160%;
+	color: #000000;
+}
+
+[class*="__container"]{
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+.title {
+	margin-bottom: 92px;
+}
+
+h1{
+	color: #1E212C;
+	line-height: 59.8px;
+	font-weight: 900;
+	font-size: 46px;
+}
+
+.immage{
+	margin-bottom: 60px;
+}
+
+.image img{
+	border-radius: 4px;
+	max-width: 100%;
+}
+
+.part-one{
+margin-bottom: 24px;
+}
+.part-one p{
+	line-height: 150%;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.part-two{
+	margin-bottom: 48px;
+}
+
+.part-two p{
+	margin-bottom: 24px;
+}
+
+.part-three{
+	margin-bottom: 48px;
+}
+
+.part-three p{
+	font-weight: 700;
+	line-height: 150%;
+	font-size: 20px;
+	padding-left: 58px;
+	color: #1E212C;
+	background-image: url(../img/braces.svg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.part-four{
+	margin-bottom: 24px;
+}
+
+.part-four p{
+	margin-bottom: 24px;
+}
+
+.list li{
+	background-image: url(../img/check.svg);
+	background-repeat: no-repeat;
+	padding-left: 32px;
+	background-position: 0 6px;
+}
+
+.part-five{
+	margin-bottom: 60px;
+}
+
+
+h2{
+	color: #1E212C;
+	line-height: 59.8px;
+	font-weight: 900;
+	font-size: 46px;
+}
+
+
+.homework__container h2{
+	margin-bottom: 30px;
+}
+
+
+.box-one,
+.box-two,
+.box-three,
+.box-four,
+.box-five{
+	margin-bottom: 50px;
+}
+
+.box-one{
+	background-image: url(../img/cosmetic.jpg);
+	background-size: contain;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+
+.box-two{
+	background-image: linear-gradient(to top, #f6e6b4 0%, #ed2857 100%);
+}
+
+.box-three{
+	background-image: url(../img/smile.jpg);
+	background-size: 100px auto;
+	border-radius: 4px;
+}
+
+.box-four{
+	background-color: rgb(240, 132, 0);
+	background-image: url(../img/pexels-photo-2113566.jpeg);
+	background-repeat: repeat;
+	background-size: 150px auto;
+	background-position: 0 0;
+	color: #ed2857;
+}
+
+.box-five{
+	background-repeat: repeat-x; 
+	background-image: url(../img/smiley.jpg);
+	background-size: 300px;
+	background-position: center;
+	background-attachment: scroll;
+	border: 10px dotted #ed2857;
+	padding: 20px;
+}
+
+.box-six{
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,10,125,0.3981967787114846) 16%, rgba(109,85,240,1) 56%, rgba(0,212,255,1) 100%);
+}
